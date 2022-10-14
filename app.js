@@ -51,3 +51,8 @@ gsap.from('.contact-container', {
     stagger: .2,
     duration: 1.3
 })
+
+function toggleMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
